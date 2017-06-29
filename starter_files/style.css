@@ -1,0 +1,170 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  border: 2px solid #ffd24a;
+  width: 50%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div header #logo img {
+  padding-bottom: 22px;
+}
+
+#site_header a:link, a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+#site_header {
+  background-color: #ff8523;
+  padding: 25px;
+}
+
+nav {
+  padding-bottom: 8px;
+}
+
+section p a:link, a:visited {
+  color: #1fabe5;
+}
+
+.main_navigation a {
+  width: 25px;
+  border: 1px solid white;
+  padding: 8px 28px;
+  margin: 0px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+}
+/*
+div #page_content h2 {
+  border-top: 3px solid #dddddd;
+  padding-top: 25px;
+}*/
+
+section h2, section h3 {
+  color: #1fabe5;
+}
+
+td img {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+/*
+ul {
+  width: 100%;
+  height: 1.6px;
+  background: #eee;
+}*/
+
+ul {
+  border-bottom: 5px;
+}
+
+#page_content {
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+section ul li {
+  font-weight: bold;
+}
+
+thead tr {
+  background-color: #1fabe5;
+  color: white;
+  border: #046c97;
+}
+
+table, td {
+  border: 1px solid #046c97;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tbody {
+  width: 100%;
+  height: 5px;
+}
+
+/* first name / last name section */
+.name {
+  background-color: #ff8523;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  /*margin:10px 0px;*/
+}
+
+/* input fields for first and last name */
+.name input {
+  margin-right: 20px;
+  width: 30%;
+  height: 3em;
+}
+
+/* favorite breed section */
+.city_container {
+  margin-bottom: 30px;
+}
+
+section {
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 35px;
+}
+
+/* form at bottom of page */
+form {
+  background-color: #eee;
+  padding: 18px;
+  background-size: 50px;
+  font-size: 14px;
+  font-weight: bold;
+
+
+/* why do you love puppies textarea */
+#bio {
+  width: 95%;
+  height: 140px;
+  border-color: #1fabe5;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* submit button */
+#submit_button {
+  background-color: #1fabe5;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: none;
+}
+
+#submit_container {
+  text-decoration: none;
+}
